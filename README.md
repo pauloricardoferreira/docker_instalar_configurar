@@ -108,9 +108,8 @@ Deixo abaixo de depoisórios para as stacks:
 * [Apache Hop](https://github.com/pauloricardoferreira/docker_hop)
   * git clone https://github.com/pauloricardoferreira/docker_hop.git
   
-Será criado o repositório para um postgres que é utilizado como banco para o Apache Hop e posteriormente utilizado como fonte para o Metabase
-* [Postgres](https://github.com/pauloricardoferreira/)
-  * git clone https://github.com/pauloricardoferreira/.git
+* [Postgres](https://github.com/pauloricardoferreira/docker_postgres_hop)
+  * git clone https://github.com/pauloricardoferreira/docker_postgres_hop.git
 
 * [Apache Metabase](https://github.com/pauloricardoferreira/docker_metabase)
   * git clone https://github.com/pauloricardoferreira/docker_metabase.git
