@@ -108,7 +108,7 @@ Deixo abaixo de depoisórios para as stacks:
 * [Apache Hop](https://github.com/pauloricardoferreira/docker_hop)
   * git clone https://github.com/pauloricardoferreira/docker_hop.git
   
-* [Postgres](https://github.com/pauloricardoferreira/docker_postgres_hop)
+* [Postgres para Hop](https://github.com/pauloricardoferreira/docker_postgres_hop)
   * git clone https://github.com/pauloricardoferreira/docker_postgres_hop.git
 
 * [Apache Metabase](https://github.com/pauloricardoferreira/docker_metabase)
