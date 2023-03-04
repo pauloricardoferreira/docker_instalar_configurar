@@ -36,7 +36,7 @@ sudo systemctl start docker.service
 sudo systemctl start containerd.service
 ```
 
-Caso receber o erro ao executar o comando "docker ps": <b> Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running? </b> execute o comando abaixo
+Caso receber o erro ao executar o comando `docker ps : <b> Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running? </b> execute o comando abaixo
 
 ```bash
 sudo update-alternatives --config iptables
