@@ -63,7 +63,7 @@ Muito bem, agora que temos o docker instalado e configurado, as configurações 
 
 Você pode criar na mão, oude pode executar o script prepara_servidor.sh para configurar automaticamente
 
-## Seguinte com script
+## Seguindo com script
 
 ## Seguindo manualmente
 
@@ -78,7 +78,7 @@ Lista de Redes
  
 para criar redes use o comando: `docker network create nome_da_rede`
  
-### <b> Criando Voumes no Docker </b> 
+### <b> Criando Volumes no Docker </b> 
 Para o Apache Airflow e Apache Hop funcionar corretamente, é cessário criar os volumes abaixo
  
 Lista de Volumes
