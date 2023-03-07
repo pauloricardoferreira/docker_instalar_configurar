@@ -12,3 +12,13 @@ do
     echo "CRIANDO VOLUME: $i"
     docker volume create $i > /dev/null 2>&1
 done
+
+echo "============================"
+echo "=== ALTERANDO PERMISSÕES ==="
+echo "============================"
+
+for i in $LISTA_VOLUMES
+do
+    echo "ALTERANDO PERMISSÕES DO VOLUME: $i"
+    sudo chmod -R 666 /var/lib/docker/volumes/$i/_data
+done
