@@ -1,14 +1,9 @@
 #!/bin/bash
 
-LISTA_VOLUMES="dags logs plugins hop_projetos hop_config"
+echo "=========================="
+echo "=== PREPARANDO VOLUMES ==="
+echo "=========================="
 
-echo "======================="
-echo "=== CRIANDO VOLUMES ==="
-echo "======================="
+echo "Clonar Repositórios com Dags Airflow, Projeto Hop e Configuração Hop"
 
-
-for i in $LISTA_VOLUMES
-do
-    echo "CRIANDO VOLUME: $i"
-    docker volume create $i > /dev/null
-done
+echo "Para os procedimentos abaixo, será necessário executar com permissões de aministrator, pois vamos trabalhar com pastas do sistema"

@@ -10,5 +10,5 @@ echo "======================="
 for i in $LISTA_VOLUMES
 do
     echo "CRIANDO REDE: $i"
-    docker network create $i > /dev/null
+    docker network create $i > /dev/null 2>&1
 done

@@ -10,5 +10,5 @@ echo "======================="
 for i in $LISTA_VOLUMES
 do
     echo "CRIANDO VOLUME: $i"
-    docker volume create $i > /dev/null
+    docker volume create $i > /dev/null 2>&1
 done
