@@ -139,7 +139,3 @@ Deixo abaixo de depoisórios para as stacks:
   
 * [Portainer](https://github.com/pauloricardoferreira/docker_portainer)
   * git clone https://github.com/pauloricardoferreira/docker_portainer.git
-  
-
-
-# Em contrução
