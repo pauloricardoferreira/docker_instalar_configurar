@@ -20,5 +20,5 @@ echo "============================"
 for i in $LISTA_VOLUMES
 do
     echo "ALTERANDO PERMISSÕES DO VOLUME: $i"
-    sudo chmod -R 666 /var/lib/docker/volumes/$i/_data
+    sudo chmod -R 777 /var/lib/docker/volumes/$i/_data/
 done
