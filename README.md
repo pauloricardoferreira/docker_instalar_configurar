@@ -64,8 +64,31 @@ Muito bem, agora que temos o docker instalado e configurado, as configurações 
 Você pode criar na mão, oude pode executar o script prepara_servidor.sh para configurar automaticamente
 
 ## Seguindo com script
+---
+
+Vamos iniciar criando as redes com o comando abaixo:
+
+```bash
+sh criar_redes.sh
+```
+
+Após vamos criar os volumes comando abaixo:
+
+```bash
+sh criar_volumes.sh
+```
+
+E em último lugar, clonar os repositório e realizar as configuraçlões necessárias com o script abaixo:
+
+```bash
+sudo sh configurar_atualizars.sh
+```
+
+<br>
 
 ## Seguindo manualmente
+---
+<br>
 
 ### <b> Criando Redes no Docker </b> 
 Para que o projeto funcione corretamente é necessário criar algumas redes para a comunicação entre os serviços que estão rodando nos containers
