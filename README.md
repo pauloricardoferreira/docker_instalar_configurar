@@ -64,7 +64,7 @@ Muito bem, agora que temos o docker instalado e configurado, as configurações 
 Você pode criar na mão, oude pode executar o script prepara_servidor.sh para configurar automaticamente
 
 ## Seguindo com script
----
+
 
 Vamos iniciar criando as redes com o comando abaixo:
 
