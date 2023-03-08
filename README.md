@@ -87,7 +87,7 @@ sudo sh configurar_atualizars.sh
 <br>
 
 ## Seguindo manualmente
----
+
 <br>
 
 ### <b> Criando Redes no Docker </b> 
