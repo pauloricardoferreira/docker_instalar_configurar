@@ -111,7 +111,7 @@ Lista de Volumes
  - hop_projetos
  - hop_config
  
-para criar redes use o comando: `docker volume volume nome_da_rede`
+para criar redes use o comando: `docker volume create nome_da_rede`
 
 **Obs.:** há um passo crítico neste ponto. Como é necessário fazer o clone do projeto hop e dags do airflow.. é necessário executar alguns passos extras, porém para isso deixarei um script pronto.
 
