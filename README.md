@@ -63,8 +63,8 @@ Muito bem, agora que temos o docker instalado e configurado, as configurações 
 
 Você pode criar na mão, oude pode executar o script prepara_servidor.sh para configurar automaticamente
 
-## Seguindo com script
 
+## Seguindo com script
 
 Vamos iniciar criando as redes com o comando abaixo:
 
@@ -87,8 +87,6 @@ sudo sh configurar_atualizars.sh
 <br>
 
 ## Seguindo manualmente
-
-<br>
 
 ### <b> Criando Redes no Docker </b> 
 Para que o projeto funcione corretamente é necessário criar algumas redes para a comunicação entre os serviços que estão rodando nos containers
