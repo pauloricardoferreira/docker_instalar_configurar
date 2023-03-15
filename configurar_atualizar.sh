@@ -48,7 +48,7 @@ echo "============================================="
 
 echo ""
 
-if [ -d "/var/lib/docker/volumes/hop_config/_data/" ]
+if [ -d "/var/lib/docker/volumes/hop_config/_data/.git" ]
     then
         cd /var/lib/docker/volumes/hop_config/_data/
         git reset --hard
