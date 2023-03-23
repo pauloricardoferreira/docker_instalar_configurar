@@ -78,11 +78,16 @@ Após vamos criar os volumes comando abaixo:
 sh criar_volumes.sh
 ```
 
-E em último lugar, clonar os repositório e realizar as configuraçlões necessárias com o script abaixo:
+Após clonar os repositório e realizar as configuraçlões necessárias com o script abaixo:
 
 ```bash
-sudo sh configurar_atualizars.sh
+sudo sh configurar_atualizar.sh
 ```
+
+E por fim, baixar os drivers necessários
+````bash
+sudo sh baixar_drivers.sh
+````
 
 <br>
 
