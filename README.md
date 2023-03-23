@@ -5,7 +5,6 @@ Este reposório contem passos básicos para instalar o docker em um servidor Ubu
 
 ## <b> Instalando e Configurando Docker </b>
 
-<br>
 
 Vamos iniciar a instalção com os comandos abaixo.
 
