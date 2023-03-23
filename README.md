@@ -87,7 +87,6 @@ E por fim, baixar os drivers necessários
 sudo sh baixar_drivers.sh
 ````
 
-<br>
 
 ## Seguindo manualmente
 
