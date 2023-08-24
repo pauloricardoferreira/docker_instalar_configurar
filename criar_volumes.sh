@@ -1,6 +1,6 @@
 #!/bin/bash
 
-LISTA_VOLUMES="dags logs plugins hop_projetos hop_config"
+LISTA_VOLUMES="dags logs plugins hop_projetos hop_config oracle_lib"
 
 echo "======================="
 echo "=== CRIANDO VOLUMES ==="
