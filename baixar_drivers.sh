@@ -9,4 +9,4 @@ echo "=============================="
 echo "=== BAIXANDO DRIVER ORACLE ==="
 echo "=============================="
 
-wget $URL_ORACLE -O $VOLUME_ORACLE_LIB/ojdbc7.jar
+sudo wget $URL_ORACLE -O $VOLUME_ORACLE_LIB/ojdbc7.jar
