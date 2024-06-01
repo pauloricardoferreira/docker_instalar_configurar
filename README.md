@@ -62,6 +62,36 @@ Muito bem, agora que temos o docker instalado e configurado, as configurações 
 Você pode criar na mão, oude pode executar o script prepara_servidor.sh para configurar automaticamente
 
 
+
+## Observações Gerais
+
+Deixo como lição para você que está implantando essa Stack, melhorar, e criar suas automações.
+Algum processo manual certamente você terá assim como eu tive.
+Deixo abaixo de depoisórios para as stacks:
+
+* [Apache Hop - Configuração de Desenvolvimento](https://github.com/pauloricardoferreira/hop_configurar_local_desenvolvimento)
+  * git clone https://github.com/pauloricardoferreira/hop_configurar_local_desenvolvimento.git
+
+* [Apache Airflow](https://github.com/pauloricardoferreira/docker_airflow)
+  * git clone https://github.com/pauloricardoferreira/docker_airflow.git
+
+* [Apache Hop](https://github.com/pauloricardoferreira/docker_hop)
+  * git clone https://github.com/pauloricardoferreira/docker_hop.git
+  
+* [Postgres para Hop](https://github.com/pauloricardoferreira/docker_postgres_hop)
+  * git clone https://github.com/pauloricardoferreira/docker_postgres_hop.git
+
+* [Apache Metabase](https://github.com/pauloricardoferreira/docker_metabase)
+  * git clone https://github.com/pauloricardoferreira/docker_metabase.git
+  
+* [Portainer](https://github.com/pauloricardoferreira/docker_portainer)
+  * git clone https://github.com/pauloricardoferreira/docker_portainer.git
+
+
+# DEPRECIADO
+
+Não utilize os passos abaixo.
+
 ## Seguindo com script
 
 Vamos iniciar criando as redes com o comando abaixo:
@@ -114,28 +144,3 @@ Lista de Volumes
 para criar redes use o comando: `docker volume create nome_da_rede`
 
 **Obs.:** há um passo crítico neste ponto. Como é necessário fazer o clone do projeto hop e dags do airflow.. é necessário executar alguns passos extras, porém para isso deixarei um script pronto.
-
-
-## Observações Gerais
-
-Deixo como lição para você que está implantando essa Stack, melhorar, e criar suas automações.
-Algum processo manual certamente você terá assim como eu tive.
-Deixo abaixo de depoisórios para as stacks:
-
-* [Apache Hop - Configuração de Desenvolvimento](https://github.com/pauloricardoferreira/hop_configurar_local_desenvolvimento)
-  * git clone https://github.com/pauloricardoferreira/hop_configurar_local_desenvolvimento.git
-
-* [Apache Airflow](https://github.com/pauloricardoferreira/docker_airflow)
-  * git clone https://github.com/pauloricardoferreira/docker_airflow.git
-
-* [Apache Hop](https://github.com/pauloricardoferreira/docker_hop)
-  * git clone https://github.com/pauloricardoferreira/docker_hop.git
-  
-* [Postgres para Hop](https://github.com/pauloricardoferreira/docker_postgres_hop)
-  * git clone https://github.com/pauloricardoferreira/docker_postgres_hop.git
-
-* [Apache Metabase](https://github.com/pauloricardoferreira/docker_metabase)
-  * git clone https://github.com/pauloricardoferreira/docker_metabase.git
-  
-* [Portainer](https://github.com/pauloricardoferreira/docker_portainer)
-  * git clone https://github.com/pauloricardoferreira/docker_portainer.git
